@@ -1,0 +1,52 @@
+{
+  "name": "studycenter",
+  "version": "1.0.0",
+  "description": "Учебный центр - система управления с PostgreSQL и TypeORM",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "dev": "ts-node-dev --respawn --transpile-only src/server.ts",
+    "sync-db": "ts-node-dev --transpile-only src/sync-db.ts",
+    "create-admin": "ts-node-dev --transpile-only src/scripts/create-admin.ts",
+    "test-admin": "ts-node-dev --transpile-only src/scripts/test-admin-login.ts",
+    "delete-courses": "ts-node-dev --transpile-only src/scripts/delete-all-courses.ts",
+    "clear-all-data": "ts-node-dev --transpile-only src/scripts/clear-all-data.ts",
+    "fix-payments": "ts-node-dev --transpile-only src/scripts/fix-payments.ts",
+    "add-month-to-payments": "ts-node-dev --transpile-only src/scripts/add-month-to-payments.ts",
+    "add-payment-index": "ts-node-dev --transpile-only src/scripts/add-payment-unique-index.ts",
+    "typeorm": "typeorm-ts-node-commonjs"
+  },
+  "keywords": [
+    "studycenter",
+    "orm",
+    "postgresql",
+    "typeorm"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-validator": "^7.0.1",
+    "helmet": "^7.1.0",
+    "jsonwebtoken": "^9.0.3",
+    "morgan": "^1.10.0",
+    "pg": "^8.11.3",
+    "reflect-metadata": "^0.1.13",
+    "typeorm": "^0.3.17"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.6",
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "@types/jsonwebtoken": "^9.0.10",
+    "@types/morgan": "^1.9.9",
+    "@types/node": "^20.10.5",
+    "@types/pg": "^8.10.9",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.3.3"
+  }
+}

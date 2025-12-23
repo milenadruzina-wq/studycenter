@@ -1,0 +1,103 @@
+{
+  "nav": {
+    "home": "Home",
+    "courses": "Courses",
+    "branches": "Branches",
+    "account": "Account",
+    "admin": "Admin Panel"
+  },
+  "hero": {
+    "title": "Education that changes lives",
+    "subtitle": "Discover the world of knowledge with our professional courses",
+    "cta": "Start Learning"
+  },
+  "usp": {
+    "title": "Why choose us",
+    "expert": {
+      "title": "Expert Teachers",
+      "description": "Our teachers are professionals with years of experience"
+    },
+    "flexible": {
+      "title": "Flexible Schedule",
+      "description": "Choose convenient time for classes"
+    },
+    "support": {
+      "title": "24/7 Support",
+      "description": "We are always ready to help you in learning"
+    },
+    "certificate": {
+      "title": "Certificates",
+      "description": "Get an official certificate upon course completion"
+    }
+  },
+  "courses": {
+    "title": "Our Courses",
+    "all": "All Courses",
+    "filter": {
+      "title": "Filters",
+      "category": "Category",
+      "price": "Price",
+      "duration": "Duration",
+      "reset": "Reset"
+    },
+    "card": {
+      "hours": "hours",
+      "price": "сом",
+      "enroll": "Enroll",
+      "learnMore": "Learn More"
+    },
+    "details": {
+      "description": "Description",
+      "schedule": "Schedule",
+      "reviews": "Reviews",
+      "enroll": "Enroll in Course",
+      "teacher": "Teacher",
+      "duration": "Duration",
+      "price": "Price"
+    }
+  },
+  "branches": {
+    "title": "Our Branches",
+    "address": "Address",
+    "phone": "Phone",
+    "hours": "Working Hours"
+  },
+  "account": {
+    "title": "Account",
+    "profile": "Profile",
+    "bookings": "My Bookings",
+    "payments": "Payment History",
+    "edit": "Edit",
+    "save": "Save"
+  },
+  "admin": {
+    "title": "Admin Panel",
+    "courses": "Courses",
+    "schedules": "Schedules",
+    "reports": "Reports",
+    "create": "Create",
+    "edit": "Edit",
+    "delete": "Delete",
+    "save": "Save",
+    "cancel": "Cancel"
+  },
+  "booking": {
+    "title": "Course Enrollment",
+    "name": "Name",
+    "email": "Email",
+    "phone": "Phone",
+    "submit": "Submit Application",
+    "success": "Application submitted successfully!"
+  },
+  "footer": {
+    "about": "About Us",
+    "contact": "Contact",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Use",
+    "rights": "All rights reserved"
+  }
+}
+
+
+
+
